@@ -37,7 +37,7 @@ const PROJECTS = [
     name: "Calorie Tracker",
     blurb: "Personal Macro & Nutrition PWA for logging meals, tracking daily targets, and review trends offline.",
     stack: ["Java 21 · Spring Boot", "React · Vite", "PostgreSQL", "AWS"],
-    url: "calorietracker.villa-dev.com",
+    url: "calories.villa-dev.com",
   },
   {
     n: "03",
