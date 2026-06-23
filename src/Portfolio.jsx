@@ -37,7 +37,7 @@ const PROJECTS = [
     name: "Calorie Tracker",
     blurb: "Personal Macro & Nutrition PWA for logging meals, tracking daily targets, and review trends offline.",
     stack: ["Java 21 · Spring Boot", "React · Vite", "PostgreSQL", "AWS"],
-    url: "calorietracker.villa-dev.com",
+    url: "calories.villa-dev.com",
   },
   {
     n: "03",
@@ -233,7 +233,7 @@ function Hero() {
 function About() {
   const ref = useReveal();
   return (
-    <section id="about" className="scroll-target mx-auto max-w-6xl px-6 py-24 sm:py-32">
+    <section id="about" className="scroll-target mx-auto max-w-6xl px-6 py-14 sm:py-20">
       <div ref={ref} className="reveal">
       <SectionLabel n="01">About</SectionLabel>
       <div className="grid gap-12 lg:grid-cols-[1.4fr_1fr]">
@@ -322,7 +322,7 @@ function Projects() {
   const labelRef = useReveal();
   const cardRefs = [useReveal(), useReveal(), useReveal()];
   return (
-    <section id="projects" className="scroll-target mx-auto max-w-6xl px-6 py-24 sm:py-32">
+    <section id="projects" className="scroll-target mx-auto max-w-6xl px-6 py-14 sm:py-20">
       <div ref={labelRef} className="reveal">
         <SectionLabel n="02">Selected Projects</SectionLabel>
       </div>
@@ -340,7 +340,7 @@ function Projects() {
 function Skills() {
   const ref = useReveal();
   return (
-    <section id="skills" className="scroll-target mx-auto max-w-6xl px-6 py-24 sm:py-32">
+    <section id="skills" className="scroll-target mx-auto max-w-6xl px-6 py-14 sm:py-20">
       <div ref={ref} className="reveal">
       <SectionLabel n="03">Skills & Tooling</SectionLabel>
       <div className="flex flex-wrap gap-3">
@@ -367,7 +367,7 @@ function Contact() {
         className="pointer-events-none absolute -bottom-40 left-1/2 -translate-x-1/2 h-[420px] w-[700px] rounded-full blur-[130px]"
         style={{ background: "rgb(var(--accent-rgb) / 0.12)" }}
       />
-      <div ref={ref} className="reveal relative mx-auto max-w-6xl px-6 py-28 sm:py-36 text-center">
+      <div ref={ref} className="reveal relative mx-auto max-w-6xl px-6 py-16 sm:py-24 text-center">
         <p className="font-mono text-sm text-accent">04 / Contact</p>
         <h2 className="mt-6 font-sans text-4xl sm:text-6xl font-bold tracking-tight text-neutral-50 text-pretty">
           Let's build something solid.
